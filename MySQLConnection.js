@@ -1,10 +1,6 @@
 import * as mysql from 'mysql';
 
-const connection = mysql.createConnection({
-    host: 'targetDatabase',
-    user: 'admin',
-    password: '123456789',
-});
+const connection = mysql.createConnection({host: 'targetDatabase', user: 'admin', password: 'password123456'});
 
 connection.connect();
 
